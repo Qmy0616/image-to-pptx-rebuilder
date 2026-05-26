@@ -1,0 +1,16 @@
+# Optional engines for higher-fidelity local reconstruction.
+# Install only the adapters you plan to use.
+
+# OCR
+paddleocr
+paddlepaddle
+
+# CV / segmentation
+opencv-python
+ultralytics
+
+# SAM usually requires environment-specific installation:
+# segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+
+# Inpainting is environment-specific. Use a LaMa-compatible package or service
+# and wire it into scripts/image_to_scene.py.

@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Generated work products
+workdir/
+test_work/
+outputs/
+*.pptx
+*.diff.png
+diff.json
+scene.json
+background.png
+source.png
+assets/
+masks/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
